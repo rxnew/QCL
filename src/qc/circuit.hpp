@@ -22,6 +22,7 @@ using CIterGateList = GateList::const_iterator;
 class Circuit {
  private:
   GateList gates_;
+  MeasurementList measurements_;
 
  public:
   Circuit();
